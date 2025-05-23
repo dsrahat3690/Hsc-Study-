@@ -1,0 +1,46 @@
+body {
+  font-family: 'SolaimanLipi', Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+table {
+  width: 100%;
+  max-width: 900px;
+  border-collapse: collapse;
+  margin: 20px auto;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+thead {
+  background-color: #2980b9;
+  color: white;
+}
+
+thead th, tbody td {
+  padding: 12px 15px;
+  font-size: 14px;
+  text-align: center;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f3f6fb;
+}
+
+tbody tr:last-child {
+  border-bottom: none;
+}
